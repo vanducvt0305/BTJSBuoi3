@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <div class="mb-4">
+      <input
+        id="soTuNhien"
+        class="block w-full py-4 border border-solid border-slate-400 mb-2 mt-2 px-4"
+        placeholder="Nhập vào 1 số tự nhiên:"
+        type="text"
+      />
+      <button
+        id="xacDinhKetQua"
+        class="py-4 px-8 w-[300px] bg-green-300 mx-auto block rounded-md text-xl"
+      >
+        Xác Định Chẵn Lẽ
+      </button>
+      <span
+        id="inKetQua"
+        class="py-4 px-4 mt-2 mx-auto w-[300px] bg-orange-300 text-xl rounded-md hidden"
+      ></span>
+    </div>
+    <hr />
+    <br />
+    <br />
+    <!-- Xét thưởng nhân viên đạt đủ doanh số -->
+
+    <div class="mb-4">
+      <input
+        class="w-full py-4 border border-solid border-slate-400 mb-2"
+        id="soLuongBan"
+        placeholder="Nhập vào số lượng sản phẩm bán của nhân viên"
+        type="text"
+      />
+      <input
+        class="w-full py-4 border border-solid border-slate-400 mb-2"
+        id="tongDoanhSo"
+        placeholder="Nhập vào tổng Doanh số của nhân viên"
+        type="text"
+      />
+      <button
+        id="tinhThuong"
+        class="py-4 px-8 w-[300px] bg-green-300 mx-auto block rounded-md text-xl"
+      >
+        Tính Thưởng
+      </button>
+      <span
+        id="inThuong"
+        class="py-4 px-4 mt-2 mx-auto w-[300px] bg-orange-300 text-xl rounded-md hidden"
+      ></span>
+    </div>
+    <hr />
+    <br />
+    <br />
+    <br />
+    <!-- Tính Chiết Khấu  -->
+    <div class="mb-4">
+      <input
+        class="w-full py-4 border border-solid border-slate-400 mb-2"
+        id="soTienMuaHang"
+        placeholder="Nhập vào số tiền mua hàng"
+        type="text"
+      />
+      <button
+        id="tinhChietKhau"
+        class="py-4 px-8 w-[300px] bg-green-300 mx-auto block rounded-md text-xl"
+      >
+        Tính Số Tiền Chiết Khấu
+      </button>
+      <span
+        id="inChietKhau"
+        class="py-4 px-4 mt-2 mx-auto w-[300px] bg-orange-300 text-xl rounded-md hidden"
+      ></span>
+    </div>
+    <hr />
+    <br />
+    <br />
+    <br />
+    <!-- Kiểm tra mật khẩu mạnh hay yếu  -->
+    <div>
+      <input
+        class="w-full py-4 border border-solid border-slate-400 mb-2"
+        id="username"
+        placeholder="Nhập vào Username"
+        type="text"
+      />
+      <input
+        class="w-full py-4 border border-solid border-slate-400 mb-2"
+        id="password"
+        placeholder="Nhập vào mật khẩu"
+        type="text"
+      />
+
+      <button
+        id="register"
+        class="py-4 px-8 w-[300px] bg-green-300 mx-auto block rounded-md text-xl"
+      >
+        Đăng ký
+      </button>
+
+      <span
+        id="inThongBao"
+        class="py-4 px-4 mt-2 mx-auto w-[300px] bg-orange-300 text-xl rounded-md hidden"
+      ></span>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
